@@ -10,3 +10,8 @@ Object.assign(window.PAWLIO_I18N.en,{languageLabel:'Language',menuOpen:'Open nav
 Object.assign(window.PAWLIO_I18N.ko,{languageLabel:'언어',menuOpen:'메뉴 열기',menuClose:'메뉴 닫기',navigation:'메인 메뉴',scroll:'아래로 스크롤',petTypes:'반려동물 종류'});
 Object.assign(window.PAWLIO_I18N['zh-CN'],{languageLabel:'语言',menuOpen:'打开导航',menuClose:'关闭导航',navigation:'主导航',scroll:'向下滚动探索',petTypes:'宠物类型'});
 Object.assign(window.PAWLIO_I18N.ja,{languageLabel:'言語',menuOpen:'メニューを開く',menuClose:'メニューを閉じる',navigation:'メインナビゲーション',scroll:'下にスクロール',petTypes:'ペットの種類'});
+
+window.PAWLIO_I18N.en.exploreExercises='Explore exercises';
+window.PAWLIO_I18N.ko.exploreExercises='훈련 살펴보기';
+window.PAWLIO_I18N['zh-CN'].exploreExercises='探索训练';
+window.PAWLIO_I18N.ja.exploreExercises='トレーニングを見る';
