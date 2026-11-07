@@ -36,3 +36,14 @@ html:lang(ko) body{font-family:'Noto Sans KR','DM Sans',sans-serif}html:lang(zh-
 .exercise-body h3{font-weight:800}.feature-copy h3,.routine-card h4,.care-grid h3{font-weight:900}.questions summary .accordion-icon,.exercise-detail summary .accordion-icon{width:18px;height:18px;color:#7d9b73;transition:transform .2s;flex-shrink:0}.questions details[open] summary .accordion-icon,.exercise-detail[open] summary .accordion-icon{transform:rotate(180deg)}.exercise-detail summary{display:flex;justify-content:space-between;align-items:center;gap:10px}.exercise-detail summary::after{content:none}
 @media(prefers-reduced-motion:reduce){.accordion-icon{transition:none!important}}
 .exercise-detail[open] summary::after,.exercise-detail summary::after{content:none}
+/* Readable text colors against Pawlio's pastel surfaces. */
+:root{--muted:#52645a}
+.pill{color:#506849;font-size:10px}
+.feature-copy .number,.tags span{color:#536d4b}
+.friends h2 em{color:#5e7751}.friends-inner>p,.teaser-copy>p,.knowledge-heading>p{color:#52645a}
+.friends-note{color:#52684d}
+.phone-head span,.routine-card small,.phone-head small,.mini-pet small,.mini-row small,.mini-title span,.float-note small,.task b{color:#52645a}
+.banner-inner>div:first-child>span{color:#655e4c}.banner-inner p{color:#655e4c}
+.exercise-body>p,.knowledge-meta,.exercise-detail ol,.exercise-detail ul,.questions details p{color:#52645a}
+.exercise-category{color:#536d4b}.source-link,.exercise-detail summary{color:#466a42}
+.review-note.alert,.exercise-note{color:#655e4c}
